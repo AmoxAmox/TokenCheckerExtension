@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Token Checker",
+  "description": "A Chrome Extension that checks discord tokens.",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
