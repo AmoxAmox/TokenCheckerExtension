@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Discord Token Checker</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+    body {
+      background-color: #36393f;
+      font-family: 'PT Sans', sans-serif;      
+      color: white;
+    }
+
+    p {
+      font-family: 'PT Sans', sans-serif;      
+      color: white;
+    }
+
+    textarea,
+    button {
+      background-color: #727478;
+      color: white;
+      font-family: 'PT Sans', sans-serif;            
+      cursor: pointer;
+    }
+  </style>
+  <script src="popup.js" defer>
+  </script>
+  <body>
+    <center>
+      <h1>Discord Token Checker!</h1>
+      <p>Enter tokens</p>
+      <textarea id="tokens" placeholder="Enter tokens here" style="margin: 0px; width: 246px; height: 196px;"></textarea>
+      <br/><br/>
+      <button id="check">Check</button>
+      <br/><br/>
+      <textarea placeholder="Working tokens" id="valid" rows="10" cols="80"></textarea>
+    </center>
+  </body>
+</html>
